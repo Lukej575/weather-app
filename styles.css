@@ -1,0 +1,43 @@
+body { 
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(46, 46, 46);
+    color: aliceblue;
+}
+
+.navbar {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#sun-sprite {
+    height: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(46, 46, 46);
+    padding: 20px;
+    color: aliceblue;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
